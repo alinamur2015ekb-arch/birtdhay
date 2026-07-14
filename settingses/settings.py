@@ -121,3 +121,5 @@ STATICFILES_DIRS = [
     BASE_DIR / "frontend", 
     BASE_DIR / "photo",
 ]
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
