@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="{% static 'ob.css' %}?v=2">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная страница</title>
+</head>
+<header>
+    <div class="but">
+        <a href="/">Главная страница</a>
+        <a href="/text">Поздравления</a>
+        <a href="/photo">Секрет</a>
+        <a href="/present">Подарок</a>
+    </div>
+</header>
+<body>
+    <div class="h">
+        <h1>Главная страница</h1>
+    </div>
+    <div class="home">
+        <p>Основной подарок {{my_name}} ждет тебя в честь {{age}} дня рождения от {{about1}}, {{about2}} на следующих страницах</p>
+    </div>
+    <div class="container_hom">
+        <div class="home_photo1">
+            <img src="{% static '1.png' %}" alt="Фото", class="homphoto1">
+        </div>
+        <div class="home_photo2">
+            <img src="{% static '2.png' %}" alt="Фото", class="homphoto2">
+        </div>
+    </div>
+</body>
+</html>

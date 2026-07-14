@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'ob.css' %}?v=2">
+    <title>Поздравление</title>
+</head>
+<header>
+    <div class="but">
+        <a href="/">Главная страница</a>
+        <a href="/text">Поздравления</a>
+        <a href="/photo">Секрет</a>
+        <a href="/present">Подарок</a>
+    </div>
+</header>
+<body>
+    <div class="h">
+        <h1>Пожелания</h1>
+    </div>
+    <div class="obge">
+        <div class="h_text">
+            <h1>С Днем рождения!</h1>
+        </div>
+        <div class="obg">
+            <p>{{pod1}}</p>
+        </div>
+        <div class="ot1">
+            <p>От {{about1}} и {{about2}}</p>
+        </div>
+        <div class="obg2">
+            <p>{{status1}} {{pod2}}</p>
+        </div>
+        <div class="ot2">
+            <p>От {{about1}}</p>
+        </div>
+        <div class="obg3">
+            <p>{{status2}} {{pod3}}</p>
+        </div>
+        <div class="ot3">
+            <p>От {{about2}}</p>
+        </div>
+    </div>
+</body>
+</html>

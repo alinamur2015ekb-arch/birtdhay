@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'ob.css' %}?v=2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Подарок</title>
+</head>
+<header>
+    <div class="but">
+    <a href="/">Главная страница</a>
+    <a href="/text">Поздравления</a>
+    <a href="/photo">Секрет</a>
+    <a href="/present">Подарок</a>
+    </div>
+</header>
+<body>
+    <div class="h">
+        <h1>Подарки</h1>
+    </div>
+    <div class="text_present">
+        <p>{{present1}}</p>
+        <div class="oti1">
+            <p>От {{about2}}</p>
+        </div>
+        <p>{{present2}}</p>
+        <div class="oti1">
+            <p>От {{about1}}</p>
+        </div>
+    </div>
+</body>
+</html>

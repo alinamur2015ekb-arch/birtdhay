@@ -1,0 +1,97 @@
+.h{
+    font-family: Geneva, Tahoma;
+}
+.home{
+    font-family: Tahoma;
+    font-size: large;
+}
+.but{
+    font-family: 'Courier New', Courier;
+}
+.home_photo1{
+    height: 780px;
+}
+.home_photo2{
+    height: 790px;
+}
+.homphoto1{
+    height: 70%;
+}
+.homphoto2{
+    height: 70%;
+}
+.container_hom {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+.h_text{
+    font-family: Geneva, Tahoma;
+    text-align: center;
+}
+.obge{
+    justify-content: flex-end;
+    background-image: url('photo_text1.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;       
+}
+.obg{
+    font-family: Geneva;
+    font-size: x-large;
+    font-size: clamp(12px, 2vw, 24px); 
+    text-align: center;
+    padding: 10px;
+    max-width: 1100px;
+    padding-left: 20%;
+}
+.ot1{
+    padding-left: 65%;
+    font-size: clamp(12px, 2vw, 24px); 
+}
+.obg2{
+    font-family: Geneva;
+    font-size: x-large;
+    font-size: clamp(12px, 2vw, 24px); 
+    text-align: center;
+    padding: 10px;
+    max-width: 1100px;
+    padding-left: 20%;
+}
+.ot2{
+    padding-left: 65%;
+    font-size: clamp(12px, 2vw, 24px); 
+}
+.obg3{
+    font-family: Geneva;
+    font-size: x-large;
+    font-size: clamp(12px, 2vw, 24px); 
+    text-align: center;
+    padding: 10px;
+    max-width: 1100px;
+    padding-left: 20%;
+}
+.ot3{
+    padding-left: 65%;
+    font-size: clamp(12px, 2vw, 24px); 
+}
+.happy{
+    font-family: Geneva;
+    font-size: x-large;
+    max-width: 300px;
+    padding-left: 40%;
+}
+.text_present{
+    font-family: Geneva;
+    font-size: x-large;
+}
+.oti1{
+    padding-left: 45%;
+    font-size: smaller;
+}
+.image1{
+    display: flex;           /* ставит элементы в строку */
+    gap: 15px;               /* расстояние между элементами */ 
+}

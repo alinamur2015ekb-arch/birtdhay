@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'ob.css' %}?v=2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Секрет</title>
+</head>
+<header>
+    <div class="but">
+    <a href="/">Главная страница</a>
+    <a href="/text">Поздравления</a>
+    <a href="/photo">Секрет</a>
+    <a href="/present">Подарок</a>
+    </div>
+</header>
+<body>
+    <div class="h">
+        <h1>Фото</h1>
+    </div>
+    <div class="img">
+        <div class="image1">
+            <img src="{% static photo1 %}" alt="">
+            <img src="{% static photo3 %}" alt="">
+        </div>
+        <div class="image2">
+            <img src="{% static photo2 %}" alt="">
+        </div>
+        <div class="image4">
+            <img src="{% static photo4 %}" alt="">
+        </div>
+        <div class="image5">
+            <img src="{% static photo5 %}" alt="">
+        </div>
+    </div>
+</body>
+</html>
