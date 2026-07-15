@@ -21,7 +21,7 @@ def text(request):
         'pod3': 'я поздравляю тебя с днем рождения! Желаю счастья, веселья и крепкого здоровья! Люблю тебя ❤️',
         'about1': 'дочки',
         'about2': 'любимой жены',
-        'color': 'blue'
+        'color': '#00d2ff'
     }
     return render(request, 'frontend/text.html', context)
 
